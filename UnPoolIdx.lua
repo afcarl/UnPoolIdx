@@ -1,8 +1,5 @@
 local UnPoolIdx, parent = torch.class('nn.UnPoolIdx', 'nn.Module')
 
-require 'sys'
-require 'cutorch'
-
 function UnPoolIdx:__init(s,indices)
    parent.__init(self)
 
